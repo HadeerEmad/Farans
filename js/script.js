@@ -93,8 +93,10 @@ $(function() {
 
         if($(this).scrollTop() > 100) {
             $('#mainNavbar').addClass('scrolled');
+            $('.up-button').removeClass('hide');
         }else {
             $('#mainNavbar').removeClass('scrolled');
+            $('.up-button').addClass('hide');
         }
     });
 
@@ -103,7 +105,7 @@ $(function() {
 
 
     // SMOOTH SCROLL
-    $('.smooth-a').click(function() {
+    $('.smooth-a, .up-button').click(function() {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top - 75
         }, 1000);
