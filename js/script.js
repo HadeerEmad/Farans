@@ -7,6 +7,38 @@ $(window).on('load', function() {
     });
 
 
+    let blockchainSlider = $('.blockchain-owl.owl-carousel');
+    if(blockchainSlider.length) {
+        blockchainSlider.owlCarousel({
+            responsive:{
+                0:{
+                    items:1,
+                    dots: true
+                },
+                576:{
+                    items:2,
+                    dots: true
+                },
+                768:{
+                    items:3,
+                    dots: true
+                },
+                992:{
+                    items:4,
+                    dots: true
+                },
+                1200:{
+                    items:5,
+                    dots: false
+                }
+            },
+            margin: 30,
+            nav: false,
+            loop: false,
+            center: false
+        });
+    }
+
     let projectsSlider = $('.projects-owl .owl-carousel');
     if(projectsSlider.length) {
         projectsSlider.owlCarousel({
@@ -54,7 +86,7 @@ $(window).on('load', function() {
             },
             margin: 30,
             nav: false,
-            loop: true,
+            loop: false,
             dots: true,
             center: true,
             autoplay: true,
