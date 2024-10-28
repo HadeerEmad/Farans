@@ -32,10 +32,13 @@ $(window).on('load', function() {
                     dots: false
                 }
             },
-            margin: 30,
+            margin: 0,
             nav: false,
-            loop: false,
-            center: false
+            loop: true,
+            center: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false
         });
     }
 

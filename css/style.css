@@ -595,12 +595,13 @@ header:after {
 
 .blockchain-owl.owl-carousel .owl-item img {
     width: 40px;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 .blockchain-owl h5, .blockchain-owl.owl-carousel .owl-item img {
     display: inline-block;
     vertical-align: middle;
+    font-size: 17px
 }
 
 /*--------------------------------------
