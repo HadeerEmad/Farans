@@ -484,8 +484,15 @@ a, input, select, textarea, button, .navbar-collapse, .nav-link:after, .navbar, 
 }
 
 .navbar-brand img {
-    height: 35px;
     margin-right: -5px;
+}
+
+.navbar-brand .black, .navbar.scrolled .navbar-brand .white {
+    display: none;
+}
+
+.navbar.scrolled .navbar-brand .black {
+    display: block;
 }
 
 .navbar-brand img, .navbar-brand strong {
