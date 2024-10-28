@@ -1,7 +1,7 @@
 <?php
 
-    header('content-type: application/json');
-    echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
+    // header('content-type: application/json');
+    // echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
 
     $name = $_POST['name'];
     $service = $_POST['service'];
@@ -13,6 +13,6 @@
     $recipient = "support@farans.io";
     $mailHeader = "From: $name \r\n";
     mail($recipient, $subject, $formContent, $mailHeader) or die("Error!");
-    header('Location: index.html');
+    header('Location: ../index.html');
 
 ?>
