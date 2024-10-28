@@ -10,7 +10,7 @@
 
     $formContent = "From: $name \n\nService: $email  \n\nContact: $message";
 
-    $recipient = "support@farans.io";
+    $recipient = "hadeer.cis@gmail.com";
     $mailHeader = "From: $email \r\n";
     mail($recipient, $subject, $formContent, $mailHeader) or die("Error!");
     header('Location: index.html');
