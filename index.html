@@ -50,10 +50,10 @@
     NAV
 ===================================-->
 
-<nav id="mainNavbar" class="navbar navbar-expand-lg px-md-0 fixed-top">
+<nav id="mainNavbar" class="navbar navbar-expand-lg px-md-0 py-0 fixed-top">
     <div class="container">
         <a class="navbar-brand m-0" href="index.html" title="Farnas">
-            <img src="images/logo-w.png" alt="Farnas" class="white">
+            <!-- <img src="images/logo-w.png" alt="Farnas" class="white"> -->
             <img src="images/logo.png" alt="Farnas" class="black">
         </a>
 
@@ -81,9 +81,15 @@
                     <a class="nav-link smooth-a" title="Success Stories" href="#stories">Success Stories</a>
                 </li>
                 <li class="nav-item px-xl-1">
+                    <a class="nav-link smooth-a" title="Our Team" href="#team">Our Team</a>
+                </li>
+                <li class="nav-item px-xl-1">
                     <a class="nav-link smooth-a" title="Contact Us" href="#contact">Contact Us</a>
                 </li>
-                <li class="nav-item px-xl-1 dropdown">
+                <li class="nav-item px-xl-1">
+                    <img src="images/made-in.png" alt="Gr">
+                </li>
+                <!-- <li class="nav-item px-xl-1 dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         EN <i class="fa fa-chevron-down small ml-1 d-none d-lg-inline-block"></i>
                     </a>
@@ -91,7 +97,7 @@
                         <li><a class="dropdown-item" href="#">EN</a></li>
                         <li><a class="dropdown-item" href="#">GR</a></li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </div>
 
@@ -109,7 +115,14 @@
 <header class="win-height py-5 position-relative">
     <div class="container-sm py-5 position-absolute z-5 text-center text-uppercase">
         <h1 class="font-4x font-weight-bold mt-0 mb-4 animate-box with-delay left-in">Building the blocks</h1>
-        <p class="font-2x text-white-50 m-0 animate-box with-delay">We are world best blockchain consultants, developers and auditors</p>
+        <p class="font-1x text-white-50 m-0 animate-box left-in with-delay">Empowering Enterprises with Blockchain Innovation</p>
+
+        <p class="font-weight-bold text-primary font-1x mt-4 header-features">
+            <span class="m-2 animate-box with-delay">Consultants</span>
+            <span class="m-2 animate-box with-delay">Developers</span>
+            <span class="m-2 animate-box with-delay">Auditors</span>
+            <span class="m-2 animate-box with-delay">Problem Solvers</span>
+        </p>
     </div>
 
     <div id="particles-js" class="particles"></div>
@@ -124,9 +137,16 @@
 <section class="py-5" id="about">
     <div class="container py-5">
         <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center">
+            <div class="col-md-10 col-lg-9 col-xl-10 text-center">
                 <h2 class="text-uppercase mb-3 animate-box left-in"><span class="main-heading d-inline-block">About Us</span></h2>
-                <p class="m-0">Farans is a blockchain company providing solutions and consultancies to companies like yours. We have a team of professional developers working to secure your smart contracts, developing efficient smart contracts and helping companies and startups to convert their imaginations to reality - <span class="font-weight-bold text-primary text-uppercase">Welcome</span></p>
+                <p class="m-0">At Farans, we're on a mission to help industries evolve—one blockchain solution at a time.</p>
+                <p>Based in Germany, we're a passionate team of builders, developers, and problem-solvers creating real-world impact
+                through cutting-edge blockchain technology. From smart contract development to full-scale decentralized systems, we work
+                with businesses in manufacturing, healthcare, fintech, and beyond to make innovation practical—and powerful.</p>
+                <p>Whether you're exploring the possibilities of Web3 or already deep in digital transformation, we've got your back. We
+                design solutions that are secure, scalable, and built around your needs.</p>
+                <p>✨ Our motto? Imagination to reality—with transparency.</p>
+                <p class="m-0 text-primary font-weight-bold">Let's build the future, together.</p>
             </div>
         </div>
 
@@ -232,7 +252,7 @@
     STATISTICS
 ===================================-->
 
-<section class="py-5 statistics-bg">
+<section class="statistics-bg py-5">
     <div class="container py-3">
         <div class="row text-center" id="counter">
             <div class="col-sm-4 animate-box with-delay my-3">
@@ -269,6 +289,9 @@
             </div>
             <div class="item">
                 <a href="https://hadrian-advisors.com/" target="_blank" title="Hadrian Advisors" class="d-block"><img src="images/hadrian.png" alt="Hadrian Advisors"></a>
+            </div>
+            <div class="item">
+                <a href="http://iites.de/" target="_blank" title="IITES" class="d-block"><img src="images/iites.png" alt="IITES"></a>
             </div>
         </div>
     </div>
@@ -352,10 +375,37 @@
 
 
 <!--===============================
+    TEAM
+===================================-->
+
+<section class="bg-dark text-white py-5" id="team">
+    <div class="container py-4">
+        <h2 class="text-uppercase mb-5 text-center"><span class="main-heading d-inline-block">Meet our Team</span></h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-xl-5">
+                <div class="card my-3">
+                    <div class="card-body p-0 d-sm-flex align-items-center text-center text-sm-left">
+                        <img src="images/fariha.jpg" alt="Fariha Abbasi" class="team-img mr-3">
+                        <div>
+                            <h3 class="font-2x mt-4 mb-2">Fariha Abbasi</h3>
+                            <p class="text-white-50 font-1x">Co-founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--===============================
     CONTACT
 ===================================-->
 
-<section class="pb-5 position-relative contact-section" id="contact">
+<section class="py-5 position-relative contact-section" id="contact">
     <div class="container py-4 position-relative z-5">
         <div class="row justify-content-center">
             <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6">
@@ -363,7 +413,7 @@
                     <div class="card-body">
                         <div class="my-5 text-center">
                             <h2 class="text-uppercase">Contact Us</h2>
-                            <p>We’re excited to hear about your project.</p>
+                            <p>We're excited to hear about your project.</p>
 
                             <p class="font-weight-bold text-primary">Book an Appointment</p>
                         </div>
@@ -372,19 +422,19 @@
                             <form action="https://formspree.io/f/mgveorbl" method="post">
                                 <label class="d-block">
                                     <span class="d-block mb-2">Your Company Name or Website URL :</span>
-                                    <input type="text" class="form-control mb-3" name="name">
+                                    <input type="text" class="form-control mb-3" name="CompanyName">
                                 </label>
                                 <label class="d-block">
                                     <span class="d-block mb-2">Service or Product You Are Interested In :</span>
-                                    <input type="text" class="form-control mb-3" name="service">
+                                    <input type="text" class="form-control mb-3" name="ServiceNeeded">
                                 </label>
                                 <label class="d-block">
                                     <span class="d-block mb-2">Quick Brief About Your Project Idea :</span>
-                                    <input type="text" class="form-control mb-3" name="title">
+                                    <input type="text" class="form-control mb-3" name="ProjectDetails">
                                 </label>
                                 <label class="d-block">
                                     <span class="d-block mb-2">How We Can Connect With You :</span>
-                                    <input type="text" class="form-control mb-3" name="message">
+                                    <input type="text" class="form-control mb-3" name="ConntactWay">
                                 </label>
 
                                 <div class="text-center">
@@ -405,7 +455,7 @@
     FOOTER
 ===================================-->
 
-<footer class="bg-darker py-3">
+<footer class="bg-darker text-white py-2">
     <div class="container">
         <!-- <ul class="list-unstyled list-inline social-links m-0 text-center">
             <li class="list-inline-item my-2"><a href="#" target="_blank" data-toggle="tooltip" data-position="top" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -416,9 +466,27 @@
             <li class="list-inline-item my-2"><a href="#" target="_blank" data-toggle="tooltip" data-position="top" title="fiverr"><img src="images/fiverr.png" alt="fiverr"></a></li>
         </ul> -->
 
-        <p class="text-center m-0">
-            <a href="mailto:Support@farans.io" target="_blank" title="Send us Email!" class="btn btn-link text-primary">Support@farans.io</a>
-        </p>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <h5 class="mt-3">Email: </h5>
+                <a href="mailto:info@farans.de" target="_blank" title="Send us Email!" class="btn btn-link p-0 mb-2 text-primary">info@farans.de</a>                
+                <br>
+                <a href="http://calendly.com/farans" title="Book an appointment" target="_blank"
+                    class="btn btn-primary btn-xl mt-3 mb-2 text-uppercase font-weight-bold">Book an appointment</a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h5 class="mt-3">Headquarter: </h5>
+                <p class="text-white mb-2">Herzog ludwig strasse 29, Markt schwaben, Bavaria, 85570, Germany</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h5 class="mt-3">Social Links: </h5>
+                <ul class="social-links list-unstyled list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/company/farans/?viewAsMember=true" title="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
 

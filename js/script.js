@@ -90,11 +90,7 @@ $(window).on('load', function() {
             margin: 30,
             nav: false,
             loop: false,
-            dots: true,
-            center: true,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: false
+            dots: true
         });
     }
 
