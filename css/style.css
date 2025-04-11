@@ -469,7 +469,7 @@ a, input, select, textarea, button, .navbar-collapse, .nav-link:after, .navbar, 
     background: #212121;
 }
 
-.nav-item img {
+.nav-item img , .nav-img{
     height: 40px;
 }
 
