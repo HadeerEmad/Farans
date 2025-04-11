@@ -496,7 +496,7 @@ a, input, select, textarea, button, .navbar-collapse, .nav-link:after, .navbar, 
 }
 
 .navbar-brand img {
-    height: 80px;
+    height: 79px;
     margin-right: -5px;
 }
 
@@ -918,7 +918,12 @@ header:after {
 *********** MEDIA ***********
 --------------------------------------*/
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .team-card {
+        max-width: 300px;
+        margin: auto;
+    }
+}
 
 @media (min-width: 576px) {
 
