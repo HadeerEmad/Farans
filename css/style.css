@@ -469,8 +469,16 @@ a, input, select, textarea, button, .navbar-collapse, .nav-link:after, .navbar, 
     background: #212121;
 }
 
-.nav-item img , .nav-img{
+.nav-item img , .nav-img img{
     height: 40px;
+}
+
+.nav-img .black, .navbar.scrolled .nav-img .white {
+    display: none;
+}
+
+.navbar.scrolled .nav-img .black {
+    display: block;
 }
 
 .nav-link {
@@ -491,14 +499,6 @@ a, input, select, textarea, button, .navbar-collapse, .nav-link:after, .navbar, 
     height: 80px;
     margin-right: -5px;
 }
-
-/* .navbar-brand .black, .navbar.scrolled .navbar-brand .white {
-    display: none;
-}
-
-.navbar.scrolled .navbar-brand .black {
-    display: block;
-} */
 
 .navbar-brand img, .navbar-brand strong {
     vertical-align: middle;
